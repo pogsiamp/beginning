@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* STYLES */
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit";
+  font-size: 15px;
+  min-height: 100vh;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 900;
+  padding: 1rem 0;
+  width: 80%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 2rem;
+  width: 80%;
+}
+
+div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  padding: 0 1rem;
+  height: 32rem;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 680px) {
+  body {
+    font-size: smaller;
+  }
+
+  div {
+    padding: 1rem;
+    height: 26rem;
+  }
+
+  h2 {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  p {
+    padding: 0 1rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 681px) and (max-width: 900px) {
+  body {
+    font-size: smaller;
+  }
+
+  div {
+    padding: 1rem;
+    height: 28rem;
+  }
+
+  h2 {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  p {
+    padding: 0 1rem;
+    width: 100%;
+  }
+}
